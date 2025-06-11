@@ -53,7 +53,7 @@
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  background-color: brown;
+  /* background-color: brown; */
   padding: 10px;
   border-radius: 10px;
 }
@@ -113,4 +113,31 @@
     padding: 15px;
     justify-content: center;
   }
+  .sidebar-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+  .color-box {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+
+.sidebar.night {
+  background-color: #312e81;
+  color: #fff;
+}
+
+.list-item.active.night {
+  background-color: #4338ca;
+}
+
+.sidebar.light {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.list-item.active.light {
+  background-color: #d1d5db;
+  color: #111827;
 }
